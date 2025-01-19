@@ -85,9 +85,69 @@ For more details, please check the latest version of the paper: [Mixture of Expe
     ```
 
 ## AVVP
+- ###### Download Data
 
+  Download extracted feats, frame and wave of LLP dataset from [Baidu Disk](https://pan.baidu.com/s/1k9dXRTmub0SeSebozIryfw?pwd=2025) (pwd: 2025), and extract it into the directory `./data/AVVP/`. 
+
+- ###### Usage
+
+  Go to AVVP task directory:
+
+  ```
+  cd AVMOE/AVVP
+  ```
+
+  - Train
+
+    ```
+    bash train.sh
+    ```
+
+  - Test
+
+    ```
+    bash test.sh
+    ```
 ## AVS
+- ###### Download Data
 
+  - Download Dataset
+
+    The updated AVSBench dataset is available [here](http://www.avlbench.opennlplab.cn/download) (`AVSBench-object`). You may request the dataset by filling the [Google Form](https://forms.gle/GKzkU2pEkh8aQVHN6).
+
+    The downloaded data should be placed to the directory `./data/`.
+
+  - Download Wave
+
+    Download wave for task **S4** ([Baidu Disk](https://pan.baidu.com/s/1acWu8o6PfoYz8cPywRoVog?pwd=2025) (pwd: 2025)) and task **MS3** ([Baidu Disk](https://pan.baidu.com/s/1ZTrhWKTyDgS0zXLFtapIVg?pwd=2025) (pwd: 2025)), and extract them into the directory `./data/AVSBench_data/Single-source/s4_data/` and `./data/AVSBench_data/Multi-sources/ms3_data/`, respectively.
+
+- ###### Download pretrained backbones
+
+  The pretrained ResNet50/PVT-v2-b5 (vision) and VGGish (audio) backbones can be downloaded from [Baidu Disk](https://pan.baidu.com/s/1vtcnqPU6mzyQz1okDkXS5w?pwd=2025) (pwd: 2025) and placed to the directory `./AVMOE/AVS/pretrained_backbones/`.
+
+- ###### Usage
+
+  Go to AVS task directory.
+
+  ```python
+  # for S4 task:
+  cd AVMOE/AVS/avs_scripts/avs_s4
+  
+  # for MS3 task:
+  cd AVMOE/AVS/avs_scripts/avs_ms3
+  ```
+
+  - Training
+
+    ```python
+    bash train_v2.sh
+    ```
+
+  - Testing
+
+    ```
+    bash test_v2.sh
+    ```
 
 ## 👍Acknowledgments
 
