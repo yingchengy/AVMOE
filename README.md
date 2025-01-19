@@ -52,6 +52,38 @@ For more details, please check the latest version of the paper: [Mixture of Expe
     ```
 
 ## AVQA
+- ###### Download Data
+
+  Download `frames.zip` from [Baidu Disk](https://pan.baidu.com/s/1ON8e708Pg_MymgPNJE_fkg?pwd=2025) (pwd: 2025), `audio_wave.zip` from [Baidu Disk](https://pan.baidu.com/s/12SP27Op9Y1rSQUlVaYztpQ?pwd=2025) (pwd: 2025), and extract them into the directory `./data/AVQA/`.
+
+- ###### Usage
+
+  Go to AVQA task directory.
+
+  ```
+  cd AVMOE/AVQA
+  ```
+
+  - Audio-Visual Grounding Generation
+
+    - Download the `./grounding_gen/models_grounding_gen/lavish_grounding_gen_best.pt` from [Baidu Disk](https://pan.baidu.com/s/10zQcRtnvWgY6jsr0l-oaTA?pwd=2025) (pwd: 2025) to skip the **Audio-Visual Grounding Generation** process.
+
+    - Or, run the below script:
+        ```python
+        python grounding_gen/main_grd_gen.py
+        ```
+
+  - Train
+
+    ```
+    bash train_v2.sh
+    ```
+
+  - Test
+    ```
+    bash test_v2.sh
+    ```
+
 ## AVVP
 
 ## AVS
