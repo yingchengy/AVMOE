@@ -3,14 +3,14 @@ This repository is the official implementation of our paper "Mixture of Experts 
 
 
 ![overview](images/overview.png)
-Method Overview.
+<small>*Method Overview*</small>
 
 In this paper, we explore parameter-efficient transfer learning for audio-visual learning and propose the Audio-Visual Mixture of Experts (AVMOE) to inject adapters into pre-trained models flexibly. Specifically, we introduce unimodal and cross-modal adapters as multiple experts to specialize in intra-modal and inter-modal information, respectively, and employ a lightweight router to dynamically allocate the weights of each expert according to the specific demands of each task. 
 
 For more details, please check the latest version of the paper: [Mixture of Experts for Audio-Visual Learning](https://openreview.net/pdf?id=SNmuKbU0am)
 
 ![downstream_tasks](images/downstream_tasks.png)
-Applying AVMoE to audio-visual downstream tasks: audio-visual event localization, audio-visual video parsing, audio-visual segmentation, and audio-visual question answering
+<small>*Applying AVMoE to audio-visual downstream tasks*</small>
 
 ------
 
