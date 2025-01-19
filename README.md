@@ -9,9 +9,6 @@ In this paper, we explore parameter-efficient transfer learning for audio-visual
 
 For more details, please check the latest version of the paper: [Mixture of Experts for Audio-Visual Learning](https://openreview.net/pdf?id=SNmuKbU0am)
 
-![downstream_tasks](images/downstream_tasks.png)
-<small>*Applying AVMoE to audio-visual downstream tasks*</small>
-
 ------
 
 ### 📝Requirements and Installation
@@ -137,13 +134,13 @@ For more details, please check the latest version of the paper: [Mixture of Expe
   cd AVMOE/AVS/avs_scripts/avs_ms3
   ```
 
-  - Training
+  - Train
 
     ```python
     bash train_v2.sh
     ```
 
-  - Testing
+  - Test
 
     ```
     bash test_v2.sh
