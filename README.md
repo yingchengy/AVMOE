@@ -146,6 +146,11 @@ For more details, please check the latest version of the paper: [Mixture of Expe
     bash test_v2.sh
     ```
 
+- ###### Result
+
+    ![qualitative_examples_4_avs_task](images/qualitative_examples_avs_task.png)
+    <small>*Qualitative examples of AVMoE and DG-SCT under the S4 setting and MS3 setting of the AVS task.*</small>
+
 ## 👍Acknowledgments
 
 Our code is based on [DG-SCT](https://github.com/haoyi-duan/DG-SCT), [CMBS](https://github.com/marmot-xy/CMBS), [AVSBench](https://github.com/OpenNLPLab/AV[SBench), [MGN](https://github.com/stoneMo/MGN), [MUSIC-AVQA](https://github.com/GeWu-Lab/MUSIC-AVQA), and [LAVisH](https://github.com/GenjiB/LAVISH).
